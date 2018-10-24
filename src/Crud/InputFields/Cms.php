@@ -12,7 +12,7 @@ class Cms extends AbstractInputField
         $model = $this->crud->modelInstance;
 
         if ($model) {
-            return '<cms-content-form data-content-template-id="2" data-link-id="' . $model->id . '" data-link-type="BLOG" data-hide-save="true"></cms-content-form>';
+            return '<cms-content-form data-content-template-id="6" data-link-id="' . $model->id . '" data-link-type="BLOG" data-hide-save="true"></cms-content-form>';
         } else {
             return '';
 

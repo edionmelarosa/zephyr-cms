@@ -35,7 +35,6 @@
         },
 
         created () {
-
         },
 
         mounted () {
